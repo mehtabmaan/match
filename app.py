@@ -9,20 +9,22 @@ def load_data(file_path):
 
 def preprocess_data(df):
     features_to_encode = ['Gender', 'Lifestyle', 'Personality Type', 'Interests', 'Sleeping Habits',
-                          'Pet Preferences', 'Smoking Preference', 'Drinking Preferences', 'Cooking']
+                          'Pet Preferences', 'Smoking Preference', 'Drinking Preferences', 'Cooking', 'Language']
     
     encoder = OneHotEncoder(handle_unknown='ignore')
-    encoded_features = encoder.fit_transform(df[features_to_encode]).toarray()
+    encoder.fit(df[features_to_encode])
+    encoded_features = encoder.transform(df[features_to_encode]).toarray()
     
     X = np.hstack((df[['Age']].values, encoded_features))
     
     knn_model = NearestNeighbors(n_neighbors=5, metric='cosine')
     knn_model.fit(X)
     
-    return encoder, knn_model, X, df
+    return encoder, knn_model, X, df, features_to_encode
 
-def find_similar_users(user_input, encoder, knn_model, df):
-    user_encoded = encoder.transform([user_input[:-1]]).toarray()
+def find_similar_users(user_input, encoder, knn_model, df, features_to_encode):
+    user_df = pd.DataFrame([user_input[:-1]], columns=features_to_encode)  # Ensure proper format
+    user_encoded = encoder.transform(user_df).toarray()
     user_vector = np.hstack(([user_input[-1]], user_encoded[0]))
     
     distances, indices = knn_model.kneighbors([user_vector])
@@ -38,14 +40,20 @@ def find_similar_users(user_input, encoder, knn_model, df):
     return similar_users
 
 def main():
-    file_path = "dataset.csv"
+    file_path = "M:\Study Material\GGI hackathon\dataset.csv"
     df = load_data(file_path)
-    encoder, knn_model, X, df = preprocess_data(df)
+    encoder, knn_model, X, df, features_to_encode = preprocess_data(df)
     
-    user_input = input("Enter your details as comma-separated values (Gender, Lifestyle, Personality Type, Interests, Sleeping Habits, Pet Preferences, Smoking Preference, Drinking Preferences, Cooking, Age):\n").split(',')
-    user_input[-1] = int(user_input[-1])  # Convert age to integer
+    user_input = input("Enter your details as comma-separated values (Gender, Lifestyle, Personality Type, Interests, Sleeping Habits, Pet Preferences, Smoking Preference, Drinking Preferences, Cooking, Language, Age):\n").split(',')
+    user_input = [item.strip() for item in user_input]  # Remove extra spaces
     
-    similar_users = find_similar_users(user_input, encoder, knn_model, df)
+    try:
+        user_input[-1] = int(user_input[-1])  # Convert age to integer
+    except ValueError:
+        print("Invalid input for age. Please enter a valid integer.")
+        return
+    
+    similar_users = find_similar_users(user_input, encoder, knn_model, df, features_to_encode)
     print("Top 5 Similar Users:")
     for i, (user, similarity) in enumerate(similar_users, start=1):
         print(f"{i}. {user['Name']} - Similarity: {similarity:.2f}%")
