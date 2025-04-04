@@ -1,0 +1,51 @@
+Name,Location,Language,Gender,Age,Lifestyle,Personality Type,Interests,Sleeping Habits,Pet Preferences,Smoking Preference,Drinking Preferences,Cooking
+Mitchell,Pune,Marathi,Other,18,Moderate,Introvert,"['Fitness', 'Cooking', 'Reading', 'Hiking', 'Traveling']",Early bird,Dogs,Occasional smoker,Regular drinker,Prefers takeout
+Jason,Mumbai,Telugu,Female,26,Moderate,Introvert,"['Reading', 'Music', 'Gaming', 'Traveling', 'Photography']",Early bird,Any,Occasional smoker,Occasional drinker,Can cook basics
+Joseph,Kolkata,Punjabi,Other,19,Active,Extrovert,"['Hiking', 'Music']",Night owl,Cats,Regular smoker,Regular drinker,Loves cooking
+Sharon,Delhi,English,Female,26,Active,Introvert,"['Traveling', 'Reading', 'Dancing']",Flexible,Dogs,Regular smoker,Occasional drinker,Loves cooking
+Deborah,Hyderabad,English,Other,30,Laid-back,Ambivert,"['Reading', 'Gaming']",Early bird,Dogs,Occasional smoker,Occasional drinker,Prefers takeout
+Chelsea,Kolkata,Telugu,Female,29,Active,Introvert,"['Movies', 'Gaming', 'Photography']",Flexible,Dogs,Occasional smoker,Regular drinker,Prefers takeout
+George,Mumbai,Tamil,Female,22,Laid-back,Extrovert,"['Cooking', 'Dancing']",Early bird,Any,Occasional smoker,Occasional drinker,Prefers takeout
+Jessica,Kolkata,English,Male,26,Laid-back,Ambivert,"['Photography', 'Hiking', 'Dancing', 'Traveling']",Night owl,No pets,Occasional smoker,Regular drinker,Loves cooking
+Frank,Jaipur,English,Female,28,Moderate,Ambivert,"['Fitness', 'Music', 'Dancing', 'Cooking', 'Reading']",Early bird,Any,Non-smoker,Regular drinker,Can cook basics
+Noah,Pune,Tamil,Female,35,Laid-back,Extrovert,"['Hiking', 'Traveling']",Early bird,Cats,Regular smoker,Non-drinker,Can cook basics
+Veronica,Chandigarh,Telugu,Other,29,Moderate,Ambivert,"['Dancing', 'Music', 'Movies', 'Reading', 'Photography']",Night owl,Cats,Occasional smoker,Occasional drinker,Prefers takeout
+Danielle,Jaipur,Tamil,Male,24,Laid-back,Extrovert,"['Hiking', 'Fitness', 'Photography', 'Dancing', 'Traveling']",Night owl,No pets,Occasional smoker,Regular drinker,Loves cooking
+Angela,Hyderabad,Hindi,Female,25,Laid-back,Ambivert,"['Traveling', 'Photography', 'Dancing']",Night owl,No pets,Non-smoker,Non-drinker,Loves cooking
+Gabrielle,Hyderabad,English,Other,33,Moderate,Introvert,"['Gaming', 'Music', 'Hiking']",Flexible,No pets,Regular smoker,Regular drinker,Loves cooking
+Megan,Mumbai,Bengali,Male,20,Active,Ambivert,"['Dancing', 'Photography', 'Hiking', 'Reading']",Early bird,Dogs,Occasional smoker,Non-drinker,Can cook basics
+Kimberly,Kolkata,Marathi,Male,35,Active,Ambivert,"['Reading', 'Photography']",Flexible,No pets,Non-smoker,Occasional drinker,Loves cooking
+Jeremy,Kolkata,Tamil,Female,19,Laid-back,Ambivert,"['Hiking', 'Cooking', 'Dancing']",Night owl,No pets,Regular smoker,Non-drinker,Can cook basics
+Antonio,Mumbai,Bengali,Male,18,Active,Ambivert,"['Gaming', 'Movies', 'Reading']",Early bird,Cats,Regular smoker,Regular drinker,Loves cooking
+Leslie,Kolkata,Marathi,Male,26,Laid-back,Ambivert,"['Gaming', 'Music', 'Traveling', 'Reading', 'Fitness']",Night owl,Any,Non-smoker,Regular drinker,Prefers takeout
+Joseph,Chandigarh,Marathi,Other,27,Active,Ambivert,"['Reading', 'Gaming', 'Photography']",Early bird,Dogs,Non-smoker,Non-drinker,Can cook basics
+Jason,Jaipur,Hindi,Female,26,Moderate,Ambivert,"['Cooking', 'Gaming', 'Dancing', 'Traveling']",Early bird,Dogs,Occasional smoker,Occasional drinker,Prefers takeout
+Sherri,Delhi,Hindi,Female,26,Active,Ambivert,"['Gaming', 'Music']",Early bird,Any,Regular smoker,Non-drinker,Prefers takeout
+Nancy,Bangalore,Tamil,Female,33,Moderate,Ambivert,"['Movies', 'Dancing', 'Fitness', 'Traveling', 'Reading']",Night owl,Dogs,Non-smoker,Occasional drinker,Can cook basics
+Leonard,Pune,Telugu,Female,34,Moderate,Ambivert,"['Dancing', 'Movies']",Night owl,No pets,Occasional smoker,Occasional drinker,Loves cooking
+Diana,Delhi,Telugu,Female,35,Laid-back,Extrovert,"['Music', 'Traveling', 'Fitness', 'Gaming', 'Hiking']",Flexible,Any,Non-smoker,Non-drinker,Loves cooking
+Randall,Bangalore,Punjabi,Male,25,Moderate,Ambivert,"['Movies', 'Music', 'Traveling', 'Fitness', 'Photography']",Night owl,Dogs,Regular smoker,Regular drinker,Can cook basics
+Robin,Mumbai,Marathi,Female,35,Active,Ambivert,"['Dancing', 'Gaming', 'Hiking']",Night owl,Any,Occasional smoker,Occasional drinker,Loves cooking
+Stephen,Bangalore,Marathi,Other,27,Active,Ambivert,"['Movies', 'Gaming', 'Cooking']",Night owl,No pets,Non-smoker,Occasional drinker,Can cook basics
+Joseph,Jaipur,Bengali,Male,31,Active,Extrovert,"['Fitness', 'Photography', 'Cooking', 'Traveling', 'Reading']",Early bird,Cats,Regular smoker,Non-drinker,Can cook basics
+John,Delhi,Punjabi,Male,34,Laid-back,Extrovert,"['Cooking', 'Reading', 'Dancing', 'Music', 'Movies']",Flexible,No pets,Non-smoker,Regular drinker,Can cook basics
+Anna,Jaipur,Hindi,Female,35,Laid-back,Introvert,"['Reading', 'Movies', 'Dancing', 'Cooking', 'Photography']",Night owl,Any,Regular smoker,Regular drinker,Loves cooking
+Jose,Kolkata,Punjabi,Male,31,Laid-back,Ambivert,"['Hiking', 'Music', 'Movies', 'Dancing', 'Fitness']",Flexible,No pets,Non-smoker,Occasional drinker,Prefers takeout
+Brenda,Mumbai,Bengali,Female,19,Laid-back,Ambivert,"['Dancing', 'Reading']",Flexible,No pets,Non-smoker,Occasional drinker,Loves cooking
+Rachael,Pune,Punjabi,Male,30,Moderate,Extrovert,"['Traveling', 'Hiking', 'Cooking']",Flexible,Cats,Non-smoker,Regular drinker,Loves cooking
+Reginald,Chandigarh,Marathi,Other,35,Laid-back,Introvert,"['Dancing', 'Gaming', 'Photography']",Night owl,Dogs,Occasional smoker,Non-drinker,Can cook basics
+Jeffrey,Bangalore,Hindi,Male,25,Moderate,Extrovert,"['Cooking', 'Gaming', 'Dancing', 'Photography']",Night owl,Cats,Occasional smoker,Occasional drinker,Can cook basics
+Whitney,Kolkata,Tamil,Female,27,Moderate,Ambivert,"['Gaming', 'Music', 'Cooking', 'Reading']",Early bird,Dogs,Regular smoker,Regular drinker,Prefers takeout
+William,Chandigarh,Tamil,Male,27,Moderate,Introvert,"['Photography', 'Gaming', 'Reading']",Flexible,Dogs,Regular smoker,Regular drinker,Prefers takeout
+Christopher,Jaipur,Hindi,Male,35,Laid-back,Extrovert,"['Movies', 'Gaming', 'Fitness']",Flexible,Any,Non-smoker,Non-drinker,Loves cooking
+Brandon,Hyderabad,Tamil,Male,22,Laid-back,Extrovert,"['Gaming', 'Dancing', 'Photography']",Flexible,No pets,Non-smoker,Non-drinker,Can cook basics
+Daniel,Chandigarh,Bengali,Female,29,Laid-back,Ambivert,"['Hiking', 'Fitness', 'Movies', 'Cooking', 'Traveling']",Early bird,No pets,Regular smoker,Occasional drinker,Loves cooking
+Courtney,Pune,Tamil,Other,20,Moderate,Ambivert,"['Movies', 'Traveling', 'Dancing', 'Music']",Flexible,No pets,Regular smoker,Non-drinker,Loves cooking
+Laura,Jaipur,Telugu,Other,22,Moderate,Ambivert,"['Movies', 'Reading', 'Music', 'Dancing', 'Hiking']",Night owl,Dogs,Non-smoker,Occasional drinker,Loves cooking
+Robert,Kolkata,Marathi,Other,29,Moderate,Ambivert,"['Photography', 'Reading', 'Cooking', 'Fitness', 'Music']",Night owl,Any,Occasional smoker,Regular drinker,Loves cooking
+Bryan,Chandigarh,Marathi,Female,20,Moderate,Introvert,"['Movies', 'Fitness', 'Hiking', 'Music']",Night owl,No pets,Non-smoker,Non-drinker,Loves cooking
+Patrick,Chandigarh,Telugu,Male,35,Laid-back,Ambivert,"['Music', 'Fitness']",Early bird,Cats,Regular smoker,Regular drinker,Loves cooking
+Wendy,Chandigarh,Tamil,Male,21,Active,Introvert,"['Reading', 'Music', 'Gaming', 'Cooking']",Early bird,Cats,Regular smoker,Occasional drinker,Can cook basics
+Allison,Delhi,English,Other,31,Active,Extrovert,"['Photography', 'Fitness', 'Music']",Early bird,No pets,Non-smoker,Regular drinker,Loves cooking
+Tasha,Mumbai,Telugu,Other,27,Active,Extrovert,"['Fitness', 'Hiking', 'Movies', 'Traveling', 'Gaming']",Early bird,Dogs,Regular smoker,Non-drinker,Prefers takeout
+Michelle,Jaipur,Telugu,Other,22,Active,Introvert,"['Cooking', 'Photography', 'Movies', 'Traveling', 'Fitness']",Night owl,Dogs,Non-smoker,Occasional drinker,Can cook basics
